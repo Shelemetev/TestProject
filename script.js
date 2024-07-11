@@ -24,6 +24,8 @@ menuButton.addEventListener('click', () => {
 const comments = document.querySelector('.reviews__comments')
 const widthC = comments.scrollWidth
 
+const Reviews = document.querySelector('.reviews')
+
 const reviews = document.querySelector('.reviews').offsetWidth
 
 const comment = document.querySelectorAll('.reviews__comment').length
@@ -90,8 +92,8 @@ submit.addEventListener("submit", () => {
 
 // 
 
-document.addEventListener("touchstart", Start, false)
-document.addEventListener("touchmove", Move, false)
+Reviews.addEventListener("touchstart", Start, false)
+Reviews.addEventListener("touchmove", Move, false)
 
 let x1 = null
 let y1 = null
@@ -102,8 +104,6 @@ function Start(event) {
     x1 = firstTouch.clientX
 
     y1 = firstTouch.clientY
-
-    console.log(x1,y1);
     
 }
 
@@ -135,5 +135,5 @@ function Move(event) {
     }
     x1 = null
     y1 = null
-    console.log(x2,y2);
+
 }
