@@ -1287,10 +1287,11 @@ h1,h2,h3 {
     transition: 1s;
 }
 
-.phone--version {
-    display: none;
-}
 
 .computer--version {
     display: block;
+}
+
+.phone--version {
+    display: none;
 }
