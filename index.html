@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./iconmoon/style.css">
+    <link rel="stylesheet" href="./normolize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logo" href="">
+                    <img class="header__logo-img" src="./images/logo.svg" alt="" srcset="">
+                </a>
+                <div class="header__menu">
+                    <button class="header__menu-btn">Авто из Японии</button>
+                    <button class="header__menu-btn">Авто из Китая</button>
+                    <button class="header__menu-btn">Авто из Кореи</button>
+                    <button class="header__menu-btn active--btn">
+                        <p class="header__menu-text">О нас</p>
+                        <img src="./images/Arrow.svg" class="header__menu-img"></img>
+                    </button>
+                    <div class="header__menu-block">
+                        <button class="header__block-btn">Компания</button>
+                        <button class="header__block-btn">Отзыв</button>
+                        <button class="header__block-btn">Контакты</button>
+                    </div>
+                </div>
+                <div class="header__contacts">
+                    <div class="header__contacts-left">
+                        <a class="header__contacts-phone" src="./images/Phone.svg" alt=""></a>
+                        <a class="header__contacts-tg" href=""></a>
+                    </div>
+                    <div class="header__contacts-right">
+                        <p class="header__contacts-phone--text">+7 123 456 78 90</p>
+                        <p class="header__contacts-info">Звонок по РФ бесплатный</p>
+                    </div>
+                </div>
+                <button class="header__burger-btn">
+                    <img class="header__burger-img" src="./images/Burger.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="discount">
+        <div class="container">
+            <div class="discount__inner">
+                <h1 class="discount__title">Авто из Японии, Кореи <br> и Китая с выгодой до <br> 30% ниже рынка РФ</h1>
+                <p class="discount__text">Высокий сервис для клиентов, от заключения <br> договора до выдачи/отправки авто.</p>
+                <button class="discount__button">Рассчитать стоимость</button>
+                <img class="discount__img" src="./images/Cars.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="japan"> 
+        <div class="container">
+            <div class="japan__inner">
+                <div class="japan__top">
+                    <div class="japan__top-info">
+                        <h1 class="japan__top-title">Автомобили из Японии</h1>
+                        <p class="japan__top-context">Toyota, Honda, Nissan и другие японские автомобили.</p>
+                    </div>
+                    <button class="japan__top-btn"><span class="text--hiden">Смотреть все</span></button>
+                </div>
+                <div class="japan__item-box">
+                    <div class="japan__item">
+                        <img src="./images/Car__1.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Subaru LEVORG VN5</h2>
+                        <p class="japan__item-info">2021 • 1.8 л • 4WD • Бензин • Вариатор</p>
+                        <p class="japan__item-price">2 115 600 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item">
+                        <img src="./images/Car2.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Mazda Mazda6 2.5 AT Touring</h2>
+                        <p class="japan__item-info">2020 • 2.5 л • Передний • Бензин • Автомат</p>
+                        <p class="japan__item-price">2 802 400 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item">
+                        <img src="./images/Car3.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Toyota CROWN AZSH21</h2>
+                        <p class="japan__item-info">2019 • 2.5 л • 4WD • Гибрид •  Планетарная</p>
+                        <p class="japan__item-price">2 852 600 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item">
+                        <img src="./images/Car4.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Lexus RC F USC10</h2>
+                        <p class="japan__item-info">2019 • 5.0 л • Задний • Бензин • Автомат</p>
+                        <p class="japan__item-price">5 965 600 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item japan__item-hidden">
+                        <img src="./images/Car5.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Mitsubishi ECLIPSE CROSS G...</h2>
+                        <p class="japan__item-info">2019 • 1.5 л • Передний • Бензин • Вариатор</p>
+                        <p class="japan__item-price">2 005 200 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item japan__item-hidden">
+                        <img src="./images/Car6.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Subaru IMPREZA WRX VAG</h2>
+                        <p class="japan__item-info">2018 • 2.0 л • 4WD • Бензин • Вариатор</p>
+                        <p class="japan__item-price">2 852 600 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item japan__item-hidden">
+                        <img src="./images/Car7.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Lexus RX200T AGL20W</h2>
+                        <p class="japan__item-info">2017 • 2.0 л • Передний • Бензин • Автомат</p>
+                        <p class="japan__item-price">2 999 800 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                    <div class="japan__item japan__item-hidden">
+                        <img src="./images/Car8.png" alt="" class="japan__item-img">
+                        <h2 class="japan__item-title">Mitsubishi Outlander PHEV G...</h2>
+                        <p class="japan__item-info">2013 • 3.0 л • 4WD • Бензин • Автомат</p>
+                        <p class="japan__item-price">2 366 200 ₽</p>
+                        <button class="japan__item-btn">Оставить заявку</button>
+                    </div>
+                </div>
+                <button class="japan__btn">
+                    Смотреть все
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="other">
+        <div class=" container">
+            <div class="other__inner">
+                <h1 class="other__title">Автомобили из Китая и Кореи</h1>
+                <p class="other__text">Поможем с покупкой автомобилей из Китая и Кореи.</p>
+                <div class="other__item-box">
+                    <div class="other__item-china">
+                        <h2 class="other__item-title">Автомобили из Китая</h2>
+                        <p class="other__item-text">Chery, Haval, EXEED и другие китайские автомобили.</p>
+                        <button class="other__item-btn">Смотреть в каталоге</button>
+                    </div>
+                    <div class="other__item-korea">
+                        <h2 class="other__item-title">Автомобили из Кореи</h2>
+                        <p class="other__item-text">Hyundai, KIA, Genesis и другие корейские автомобили.</p>
+                        <button class="other__item-btn">Смотреть в каталоге</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container container--padding">
+            <div class="about__inner">
+                <div class="about__background">
+                    <div class="about__info">
+                        <h1 class="about__info-title">О нас</h1>
+                        <p class="about__info-text">Компания «AUTOCENTER» предлагает <br> широкий выбор автомобилей от ведущ <br> их мировых производителей. Мы спец <br> иализируемся на продаже новых и под <br> ержанных авто. Наша команда профес <br> сионалов поможет вам выбрать идеал <br> ьный автомобиль, учитывая ваши потр <br> ебности и бюджет.</p>
+                    </div>
+                    <img class="about__img" src="./images/101.svg" alt="" srcset="">
+                    <div class="about__items">
+                        <div class="about__item">
+                            <img class="about__item-img" src="./images/about1.svg" alt="">
+                            <p class="about__item-text">Короткие сроки доставки </p>
+                        </div>
+                        <div class="about__item">
+                            <img class="about__item-img" src="./images/About2.svg" alt="">
+                            <p class="about__item-text">Полное <br> сопровождение. <br> Связь с клиентом <br> 24/7</p>
+                        </div>
+                        <div class="about__item">
+                            <img class="about__item-img" src="./images/About3.svg" alt="">
+                            <p class="about__item-text">Опыт работы <br> более 5 лет</p>
+                        </div>
+                        <div class="about__item">
+                            <img class="about__item-img" src="./images/About4.svg" alt="">
+                            <p class="about__item-text">⁠Привезем авто с выгодой <br> до 30% ниже рынка РФ</p>
+                        </div>
+                        <div class="about__item">
+                            <img class="about__item-img" src="./images/About5.svg" alt="">
+                            <p class="about__item-text">Высокий сервис <br> для клиентов</p>
+                        </div>
+                        <div class="about__item phone--hidden">
+                            <img class="about__item-img" src="./images/About7.svg" alt="">
+                            <p class="about__item-text">Полная клиентоориентированность</p>
+                        </div>
+                        <div class="about__item">
+                            <img class="about__item-img" src="./images/About8.svg" alt="">
+                            <p class="about__item-text">⁠Профессионализм сотрудников компании</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="about__btn">Рассчитать стоимость</button>
+            </div>
+        </div>
+    </section>
+    <section  class="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <div class="reviews__title">
+                    <h1 class="reviews__title-text">Отзывы клиентов</h1>
+                    <p class="reviews__title-context">253</p>
+                </div>
+                <div class="reviews__score">
+                    <p class="reviews__score-text">4,5</p>
+                    <div class="reviews__score-stars">
+                        <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                        <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                        <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                        <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                        <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="reviews__comments">
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__comment">
+                <div class="reviews__comment-inner">
+                    <img src="./images/Man1.png" alt="" class="reviews__comment-img">
+                    <div class="reviews__comment-info">
+                        <h1 class="reviews__comment-title">Киселёв Василий</h1>
+                        <div class="reviews__score-stars">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_full.svg" alt="">
+                            <img class="reviews__score-stars" src="./images/star_fill.svg" alt="">
+                        </div>
+                        <p class="reviews__comment-text">По итогу хочу сказать следующее: во Владивосток доставить автомобиль из Японии - очень быстро и дешево, Все в семье были довольны.</p>
+                        <p class="reviews__comment-context">7 октября 2023 г.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="reviews__comments-btn--next"></button>
+        <button class="reviews__comments-btn--prev"></button>
+    </section>
+    <section class="contacts">
+        <div class="container container--padding">
+            <div class="contacts__inner">
+                <h1 class="contacts__title">Контактная информация</h1>
+                <p class="contacts__text">Оставьте свою заявку и наш менеджер свяжется с Вами для уточнения деталей.</p>
+                <div class="contacts__info">
+                    <div class="contacts__info-left">
+                        <div class="contacts__info-block">
+                            <h2 class="contacts__info-title">Позвонить</h2>
+                            <p class="contacts__info-text">+7 123 456 78 90</p>
+                        </div>
+                        <div class="contacts__info-block">
+                            <h2 class="contacts__info-title">Написать</h2>
+                            <p class="contacts__info-text">info@example.com</p>
+                        </div>
+                        <div class="contacts__info-block">
+                            <h2 class="contacts__info-title">Адрес</h2>
+                            <p class="contacts__info-text">123 Main Street, Tokyo, Japan</p>
+                        </div>
+                    </div>
+                    <div class="contacts__info-right">
+                        <a class="contacts__info-link">
+                            <img class="contacts__info-img" src="./images/2GIS.svg" alt="">
+                            <p class="contacts__info-content">Мы на 2гис</p>
+                        </a>
+                        <a class="contacts__info-link">
+                            <img class="contacts__info-img" src="./images/Yandex.svg" alt="">
+                            <p class="contacts__info-content">Мы на Яндекс картах</p>
+                        </a>
+                        <a class="contacts__info-link">
+                            <img class="contacts__info-img" src="./images/VL.svg" alt="">
+                            <p class="contacts__info-content">VL справочник</p>
+                        </a>
+                    </div>
+                </div>
+                <form class="contacts__form" action="">
+                    <h1 class="contacts__form-title">Оставить заявку</h1>
+                    <div class="contacts__form-box">
+                        <div class="contacts__form-left">
+                            <p class="contacts__form-text">Имя</p>
+                            <input class="contacts__form-input" placeholder="Введите имя" type="text">
+                        </div>
+                        <div class="contacts__form-right">
+                            <p class="contacts__form-text">Телефон <span class="text--grey">(Обязательно)</span></p>
+                            <input class="contacts__form-input contacts__form-input--tel" placeholder="Введите имя" type="text">
+                        </div>
+                    </div>
+                    <div class="contacts__form-box">
+                        <div class="contacts__form-center">
+                            <p class="contacts__form-text">Уточните свой вопрос</p>
+                            <textarea class="contacts__form-textarea" placeholder="Введите текст сообщения" type="text"></textarea>
+                        </div>
+                    </div>
+                    <div class="contacts__form-box">
+                        <div class="contacts__form-left--flex">
+                            <input  class="contacts__form-input--checkbox" id="ds" type="checkbox">
+                            <label for="ds" class="custom__checkbox"></label>
+                            <p class="contacts__form-text">С <a class="blue-link" href="">правилами политики конфиденциальности</a> ознакомлен </p>
+                        </div>
+                        <div class="contacts__form-right">
+                            <button class="contacts__form-btn" type="submit">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>         
+        </div>
+    </section>
+    <footer class="footer"> 
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__about">
+                    <img src="./images/Logo_footer.svg" alt="" class="footer__about-img">
+                    <div class="footer__about-btns">
+                        <button class="footer__about-btn">О нас</button>
+                        <button class="footer__about-btn">Каталог авто</button>
+                    </div>
+                </div>
+                <div class="footer__service-items">
+                    <div class="footer__service-item">
+                        <h2 class="footer__service-title">Авто из Японии</h2>
+                        <div class="footer__service-btns">
+                            <button class="footer__service-btn">Toyota</button>
+                            <button class="footer__service-btn">Nissan</button>
+                            <button class="footer__service-btn">Honda</button>
+                            <button class="footer__service-btn">Mazda</button>
+                            <button class="footer__service-btn">Mitsubishi</button>
+                            <button class="footer__service-btn">Subaru</button>
+                            <button class="footer__service-btn">Suzuki</button>
+                            <button class="footer__service-btn">Suzuki</button>
+                            <button class="footer__service-btn">BMW</button>
+                            <button class="footer__service-btn">Daihatsu</button>
+                        </div>
+                    </div>
+                    <div class="footer__service-item">
+                        <h2 class="footer__service-title">Авто из Японии</h2>
+                        <div class="footer__service-btns">
+                            <button class="footer__service-btn">Changan</button>
+                            <button class="footer__service-btn">Exeed</button>
+                            <button class="footer__service-btn">Geely</button>
+                            <button class="footer__service-btn">Chery</button>
+                            <button class="footer__service-btn">Haval</button>
+                            <button class="footer__service-btn">FAW</button>
+                            <button class="footer__service-btn">BYD</button>
+                            <button class="footer__service-btn">BYD</button>
+                            <button class="footer__service-btn">Lifan</button>
+                            <button class="footer__service-btn">DongFeng</button>
+                        </div>
+                    </div>
+                    <div class="footer__service-item footer__service-item--korea">
+                        <h2 class="footer__service-title">Авто из Японии</h2>
+                        <div class="footer__service-btns">
+                            <button class="footer__service-btn">Hyundai</button>
+                            <button class="footer__service-btn">Kia</button>
+                            <button class="footer__service-btn">SsangYong</button>
+                            <button class="footer__service-btn">Daewoo</button>
+                            <button class="footer__service-btn">Samsung</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__info">
+                    <h2 class="footer__info-title">Политика конфиденциальности</h2>
+                    <p class="footer__info-text">© 2003–2024 ООО "Автоцентр"</p>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__images">
+                        <a href="" class="footer__img-phone"></a>
+                        <a href="" class="footer__img-telegram"></a>
+                        <a href="" class="footer__img-youtube"></a>
+                    </div>
+                    <div class="footer__contacts-info">
+                        <h2 class="footer__contacts-title">+7 123 456 78 90</h2>
+                        <p class="footer__contacts-text">Звонок по РФ бесплатный</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
