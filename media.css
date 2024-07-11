@@ -525,7 +525,7 @@
     }
 }
 
-@media (max-width: 560px)  {
+@media (max-width: 660px)  {
     .header__menu {
         display: block;
         position: absolute;
