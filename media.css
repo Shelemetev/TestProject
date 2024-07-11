@@ -524,13 +524,13 @@
         margin-top: 24px;
     }
 
-    .phone--version {
+    /* .phone--version {
         display: block;
     }
     
     .computer--version {
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 660px)  {
