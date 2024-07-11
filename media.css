@@ -523,6 +523,14 @@
     .footer__contacts-info {
         margin-top: 24px;
     }
+
+    .phone--version {
+        display: block;
+    }
+    
+    .computer--version {
+        display: none;
+    }
 }
 
 @media (max-width: 660px)  {
@@ -1051,6 +1059,14 @@
 
     .footer__contacts-info {
         margin-top: 24px;
+    }
+
+    .phone--version {
+        display: block;
+    }
+    
+    .computer--version {
+        display: none;
     }
 }
 
